@@ -63,3 +63,14 @@ section p {
     filter: hue-rotate(360deg);
   }
 }
+
+#percent {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  color: #fff;
+  font-size: 1.2em;
+  padding: 2px 5px;
+  background: #fff;
+  color: #333;
+}
