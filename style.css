@@ -6,3 +6,21 @@
   box-sizing: border-box;
   font-family: 'Inconsolata', monospace;
 }
+
+body {
+  background: #000;
+  cursor: context-menu;
+}
+
+section {
+  padding: 40px;
+  color: #555;
+}
+
+section h2 {
+  font-size: 3.5em;
+}
+
+section p {
+  font-size: 1.2em;
+}
