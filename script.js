@@ -10,6 +10,7 @@ let progressBar = document.getElementById('progressBar');
 let totalHeight = document.body.scrollHeight - window.innerHeight;
 
 window.onscroll = function () {
-  let progress = (window.pageXOffset / totalHeight) * 100;
+  let progress = (window.pageYOffset / totalHeight) * 100;
   progressBar.style.width = progress + '%';
+  percent.innerHTML = 'Page Scrolled ' + Math.round(progress) + '%';
 };
